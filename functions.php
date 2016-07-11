@@ -1004,8 +1004,7 @@ if(function_exists( 'wp_enqueue_media' )){
 	
 	<div class="header_wrap">
 		<div style="float:left">
-		<h2><?php _e( 'Theme Setting', THEMEDOMAIN ); ?> <span class="pp_version">v<?php echo THEMEVERSION; ?></span></h2><br/>
-		<a href="http://themes.themegoods2.com/altair_doc" target="_blank"><?php _e( 'Online Documentation', THEMEDOMAIN ); ?></a>&nbsp;|&nbsp;<a href="https://themegoods.ticksy.com/" target="_blank"><?php _e( 'Theme Support', THEMEDOMAIN ); ?></a>
+		<h2><?php _e( 'Theme Setting', THEMEDOMAIN ); ?> <span class="pp_version"><?php echo THEMEVERSION; ?></span></h2><br/>
 		</div>
 		<div style="float:right;margin:32px 0 0 0">
 			<!-- input id="save_ppskin" name="save_ppskin" class="button secondary_button" type="submit" value="Save as Skin" / -->
