@@ -16,7 +16,7 @@ get_header();
 		    //Get site title
 		    $site_title = get_bloginfo('title');
 		?>
-		<h1 class="cufon"><?php _e( 'The Blog', THEMEDOMAIN ); ?></h1>
+		<h1 class="cufon"><?php _e( 'New & News', THEMEDOMAIN ); ?></h1>
 		<?php echo dimox_breadcrumbs(); ?>
 	</div>
 </div>
